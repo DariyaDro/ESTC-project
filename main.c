@@ -49,6 +49,7 @@ int main(void)
                 bsp_board_led_invert(j);
                 nrf_delay_ms(SMALL_PAUSE);
             }
+            nrf_delay_ms(PAUSE);
         }
    }
 }
